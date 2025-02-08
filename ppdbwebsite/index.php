@@ -24,7 +24,7 @@
     <h1>FORM PPDB</h1>
     <h1>BY</h1>
     <h1>RIZKI AHMAD FAUZI</h1>
-    <form action="" method="">
+    <form action="progres.php" method="POST">
         <table border=1 style="border-collapse : collapse; width : 50%; ">
             <tr>
                 <td>NISN</td>
@@ -50,8 +50,8 @@
                 <td>GENDER</td>
                 <td>:</td>
                 <td>
-                    <input type="radio" name="gender" id="" Value="L">Laki - Laki
-                    <input type="radio" name="gender" id="" Value="P">Perempuan
+                    <input type="radio" name="gender" id="" Value="Laki - Laki">Laki - Laki
+                    <input type="radio" name="gender" id="" Value="Perempuan">Perempuan
                 </td>
             </tr>
             <tr>
@@ -77,7 +77,7 @@
             <tr>
                 <td>ASAL SEKOLAH</td>
                 <td>:</td>
-                <td><input type="text" name="ASAL SEKOLAH" id=""></td>
+                <td><input type="text" name="ASALSEKOLAH" id=""></td>
             </tr>
             <tr>
                 <td>PILIHAN 1</td>
@@ -86,7 +86,7 @@
                     <select name="pil1" id="">
                         <option value="">Pilih Jurusan</option>
                         <option value="AKL">Akuntansi dan Keuangan Lembaga</option>
-                        <option value="MPLB">Manajemen Perkantoran dan Layanan Bisnis </option>
+                        <option value="MPLB">Manajemen Perkantoran dan Layanan Bisnis</option>
                         <option value="PM">Pemasaran</option>
                         <option value="PPLG">Pengembangan Perangkat Lunak dan Gim</option>
                         <option value="TJKT">Teknik Jaringan Komputer dan Telekomunikasi</option>
@@ -140,27 +140,26 @@
                 <td>EKSTRAKULIKULER</td>
                 <td>:</td>
                 <td>
-                    <input type="checkbox" name="" id="">OSIS
+                    <input type="checkbox" name="ekskul[]" id="" Value="OSIS">OSIS
                     <br>
-                    <input type="checkbox" name="" id="">PRAMUKA
+                    <input type="checkbox" name="ekskul[]" id="" Value="PRAMUKA">PRAMUKA
                     <br>
-                    <input type="checkbox" name="" id="">PECINTA ALAM
+                    <input type="checkbox" name="ekskul[]" id="" Value="REMAS">REMAS
                     <br>
-                    <input type="checkbox" name="" id="">REMAS
+                    <input type="checkbox" name="ekskul[]" id="" Value="PMR">PMR
                     <br>
-                    <input type="checkbox" name="" id="">PMR
+                    <input type="checkbox" name="ekskul[]" id="" Value="FUTSAL">FUTSAL
                     <br>
-                    <input type="checkbox" name="" id="">FUTSAL
+                    <input type="checkbox" name="ekskul[]" id="" Value="BASKET">BASKET
                     <br>
-                    <input type="checkbox" name="" id="">BASKET
+                    <input type="checkbox" name="ekskul[]" id="" Value="VOLI">VOLI
                     <br>
-                    <input type="checkbox" name="" id="">VOLI
+                    <input type="checkbox" name="ekskul[]" id="" Value="TEATER">TEATER
                     <br>
-                    <input type="checkbox" name="" id="">TEATER
+                    <input type="checkbox" name="ekskul[]" id="" Value="LASKAR HIJAU">LASKAR HIJAU
                     <br>
-                    <input type="checkbox" name="" id="">LASKAR HIJAU
+                    <input type="checkbox" name="ekskul[]" id="" Value="GDS">GDS
                     <br>
-                    <input type="checkbox" name="" id="">GDS
                 </td>
             </tr>
             <tr>
